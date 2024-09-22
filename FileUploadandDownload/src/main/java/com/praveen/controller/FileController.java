@@ -27,11 +27,11 @@ public class FileController {
 			if (uploadFile) {
 				return new ResponseEntity<FileResponse>(new FileResponse("File nmae","sucess"), HttpStatus.CREATED);
 			} else {
-				return new ResponseEntity<FileResponse>(new FileResponse("File nmae","sucess"),HttpStatus.INTERNAL_SERVER_ERROR);
+				return new ResponseEntity<FileResponse>(new FileResponse("File nmae","fail"),HttpStatus.INTERNAL_SERVER_ERROR);
 			}
 
 		} catch (Exception e) {
-			return new ResponseEntity<FileResponse>(new FileResponse("File nmae","sucess"), HttpStatus.INTERNAL_SERVER_ERROR);
+			return new ResponseEntity<FileResponse>(new FileResponse("File nmae","fail"), HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 
 	}
