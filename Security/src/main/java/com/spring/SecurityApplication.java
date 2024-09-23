@@ -14,6 +14,7 @@ public class SecurityApplication {
 		System.out.println("Check staging");
 		System.out.println("Check staging");
 		System.out.println("git commit");
+		System.out.println("git commit1");
 		
 	}
 
