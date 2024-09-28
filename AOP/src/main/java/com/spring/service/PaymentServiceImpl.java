@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public class PaymentServiceImpl implements PaymentService {
 
 	public void makePayment() {
-        System.out.println("Payment has been made.");
-    }
+		System.out.println("Payment has been made.");
+	}
 
 }
