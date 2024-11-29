@@ -1,0 +1,182 @@
+2024-11-29T22:02:15.862+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] c.p.SpringBootBestPraticesApplication    : Starting SpringBootBestPraticesApplication using Java 22.0.1 with PID 12392 (C:\Users\prave\CodeAll\JavaDev\LearningSpringBoot\SpringBootBestPratices\target\classes started by prave in C:\Users\prave\CodeAll\JavaDev\LearningSpringBoot\SpringBootBestPratices)
+2024-11-29T22:02:15.864+05:30 DEBUG 12392 --- [SpringBootBestPratices] [restartedMain] c.p.SpringBootBestPraticesApplication    : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-11-29T22:02:15.866+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] c.p.SpringBootBestPraticesApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-11-29T22:02:15.977+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-29T22:02:15.978+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-29T22:02:17.724+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-29T22:02:17.859+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interface.
+2024-11-29T22:02:27.027+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-29T22:02:27.114+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-29T22:02:27.115+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-29T22:02:30.290+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-29T22:02:30.291+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 14311 ms
+2024-11-29T22:02:30.982+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-29T22:02:31.168+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-29T22:02:31.240+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-29T22:02:31.813+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-29T22:02:31.950+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-29T22:02:33.044+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5fe170ee
+2024-11-29T22:02:33.047+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-29T22:02:33.353+05:30  WARN 12392 --- [SpringBootBestPratices] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-29T22:02:33.356+05:30  WARN 12392 --- [SpringBootBestPratices] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-29T22:02:33.404+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-29T22:02:34.773+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-29T22:02:34.926+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-29T22:02:35.418+05:30  WARN 12392 --- [SpringBootBestPratices] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-29T22:02:35.994+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-29T22:02:36.052+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-29T22:02:36.063+05:30  INFO 12392 --- [SpringBootBestPratices] [restartedMain] c.p.SpringBootBestPraticesApplication    : Started SpringBootBestPraticesApplication in 21.649 seconds (process running for 22.71)
+2024-11-29T22:03:20.741+05:30  INFO 12392 --- [SpringBootBestPratices] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-29T22:03:20.742+05:30  INFO 12392 --- [SpringBootBestPratices] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-29T22:03:20.743+05:30  INFO 12392 --- [SpringBootBestPratices] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-29T22:03:20.814+05:30  INFO 12392 --- [SpringBootBestPratices] [http-nio-8080-exec-1] com.praveen.service.ProductService       : Fetching product with ID: 2
+2024-11-29T22:04:17.183+05:30  INFO 12392 --- [SpringBootBestPratices] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-29T22:04:17.198+05:30  INFO 12392 --- [SpringBootBestPratices] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-29T22:04:17.202+05:30  INFO 12392 --- [SpringBootBestPratices] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-29T22:04:17.210+05:30  INFO 12392 --- [SpringBootBestPratices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-29T22:04:17.224+05:30  INFO 12392 --- [SpringBootBestPratices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-29T22:04:20.370+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] c.p.SpringBootBestPraticesApplication    : Starting SpringBootBestPraticesApplication using Java 22.0.1 with PID 8056 (C:\Users\prave\CodeAll\JavaDev\LearningSpringBoot\SpringBootBestPratices\target\classes started by prave in C:\Users\prave\CodeAll\JavaDev\LearningSpringBoot\SpringBootBestPratices)
+2024-11-29T22:04:20.380+05:30 DEBUG 8056 --- [SpringBootBestPratices] [restartedMain] c.p.SpringBootBestPraticesApplication    : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-11-29T22:04:20.382+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] c.p.SpringBootBestPraticesApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-11-29T22:04:20.463+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-29T22:04:20.463+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-29T22:04:21.660+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-29T22:04:21.762+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 1 JPA repository interface.
+2024-11-29T22:04:22.751+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-29T22:04:22.776+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-29T22:04:22.777+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-29T22:04:22.844+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-29T22:04:22.845+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2381 ms
+2024-11-29T22:04:23.144+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-29T22:04:23.266+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-29T22:04:23.316+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-29T22:04:23.686+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-29T22:04:23.720+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-29T22:04:24.122+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a68b123
+2024-11-29T22:04:24.125+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-29T22:04:24.208+05:30  WARN 8056 --- [SpringBootBestPratices] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-29T22:04:24.210+05:30  WARN 8056 --- [SpringBootBestPratices] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-29T22:04:24.237+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-29T22:04:25.239+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-29T22:04:25.321+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-29T22:04:25.772+05:30  WARN 8056 --- [SpringBootBestPratices] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-29T22:04:26.312+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-29T22:04:26.365+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-29T22:04:26.381+05:30  INFO 8056 --- [SpringBootBestPratices] [restartedMain] c.p.SpringBootBestPraticesApplication    : Started SpringBootBestPraticesApplication in 6.889 seconds (process running for 7.683)
+2024-11-29T22:04:39.025+05:30  INFO 8056 --- [SpringBootBestPratices] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-29T22:04:39.025+05:30  INFO 8056 --- [SpringBootBestPratices] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-29T22:04:39.027+05:30  INFO 8056 --- [SpringBootBestPratices] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-29T22:04:39.110+05:30  INFO 8056 --- [SpringBootBestPratices] [http-nio-8080-exec-1] com.praveen.service.ProductService       : Fetching product with ID: 2
+2024-11-29T22:15:18.024+05:30  INFO 8056 --- [SpringBootBestPratices] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-29T22:15:18.039+05:30  INFO 8056 --- [SpringBootBestPratices] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-29T22:15:18.073+05:30  INFO 8056 --- [SpringBootBestPratices] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-29T22:15:18.108+05:30  INFO 8056 --- [SpringBootBestPratices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-29T22:15:18.172+05:30  INFO 8056 --- [SpringBootBestPratices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-29T22:15:31.537+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] c.p.SpringBootBestPraticesApplication    : Starting SpringBootBestPraticesApplication using Java 22.0.1 with PID 14520 (C:\Users\prave\CodeAll\JavaDev\LearningSpringBoot\SpringBootBestPratices\target\classes started by prave in C:\Users\prave\CodeAll\JavaDev\LearningSpringBoot\SpringBootBestPratices)
+2024-11-29T22:15:31.540+05:30 DEBUG 14520 --- [SpringBootBestPratices] [restartedMain] c.p.SpringBootBestPraticesApplication    : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-11-29T22:15:31.541+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] c.p.SpringBootBestPraticesApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-11-29T22:15:31.685+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-29T22:15:31.686+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-29T22:15:33.369+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-29T22:15:33.476+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interface.
+2024-11-29T22:15:34.724+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-29T22:15:34.764+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-29T22:15:34.765+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-29T22:15:34.839+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-29T22:15:34.840+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3152 ms
+2024-11-29T22:15:35.265+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-29T22:15:35.539+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-29T22:15:35.614+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-29T22:15:36.198+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-29T22:15:36.293+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-29T22:15:37.502+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5beb29fa
+2024-11-29T22:15:37.505+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-29T22:15:37.758+05:30  WARN 14520 --- [SpringBootBestPratices] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-29T22:15:37.759+05:30  WARN 14520 --- [SpringBootBestPratices] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-29T22:15:37.805+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-29T22:15:39.524+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-29T22:15:39.618+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-29T22:15:40.016+05:30  WARN 14520 --- [SpringBootBestPratices] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-29T22:15:40.488+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-29T22:15:40.568+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-29T22:15:40.577+05:30  INFO 14520 --- [SpringBootBestPratices] [restartedMain] c.p.SpringBootBestPraticesApplication    : Started SpringBootBestPraticesApplication in 10.62 seconds (process running for 11.895)
+2024-11-29T22:15:48.935+05:30  INFO 14520 --- [SpringBootBestPratices] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-29T22:15:48.936+05:30  INFO 14520 --- [SpringBootBestPratices] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-29T22:15:48.937+05:30  INFO 14520 --- [SpringBootBestPratices] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-29T22:15:48.998+05:30 DEBUG 14520 --- [SpringBootBestPratices] [http-nio-8080-exec-2] com.praveen.service.ProductService       : Saving product: {}
+2024-11-29T22:15:48.999+05:30  INFO 14520 --- [SpringBootBestPratices] [http-nio-8080-exec-2] com.praveen.service.ProductService       : Updating product with ID: 2
+2024-11-29T22:15:48.999+05:30  INFO 14520 --- [SpringBootBestPratices] [http-nio-8080-exec-2] com.praveen.service.ProductService       : Fetching product with ID: 2
+2024-11-29T22:15:48.999+05:30  WARN 14520 --- [SpringBootBestPratices] [http-nio-8080-exec-2] com.praveen.service.ProductService       : Deleting product with ID: 2
+2024-11-29T22:18:01.358+05:30  INFO 14520 --- [SpringBootBestPratices] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-29T22:18:01.372+05:30  INFO 14520 --- [SpringBootBestPratices] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-29T22:18:01.375+05:30  INFO 14520 --- [SpringBootBestPratices] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-29T22:18:01.379+05:30  INFO 14520 --- [SpringBootBestPratices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-29T22:18:01.389+05:30  INFO 14520 --- [SpringBootBestPratices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-29T22:18:04.327+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] c.p.SpringBootBestPraticesApplication    : Starting SpringBootBestPraticesApplication using Java 22.0.1 with PID 13140 (C:\Users\prave\CodeAll\JavaDev\LearningSpringBoot\SpringBootBestPratices\target\classes started by prave in C:\Users\prave\CodeAll\JavaDev\LearningSpringBoot\SpringBootBestPratices)
+2024-11-29T22:18:04.331+05:30 DEBUG 13140 --- [SpringBootBestPratices] [restartedMain] c.p.SpringBootBestPraticesApplication    : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-11-29T22:18:04.332+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] c.p.SpringBootBestPraticesApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-11-29T22:18:04.422+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-29T22:18:04.423+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-29T22:18:05.841+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-29T22:18:05.954+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interface.
+2024-11-29T22:18:06.998+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-29T22:18:07.022+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-29T22:18:07.022+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-29T22:18:07.091+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-29T22:18:07.092+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2667 ms
+2024-11-29T22:18:07.346+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-29T22:18:07.442+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-29T22:18:07.501+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-29T22:18:07.988+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-29T22:18:08.044+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-29T22:18:08.556+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35b8f08d
+2024-11-29T22:18:08.559+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-29T22:18:08.657+05:30  WARN 13140 --- [SpringBootBestPratices] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-29T22:18:08.658+05:30  WARN 13140 --- [SpringBootBestPratices] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-29T22:18:08.680+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-29T22:18:09.794+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-29T22:18:09.851+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-29T22:18:10.374+05:30  WARN 13140 --- [SpringBootBestPratices] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-29T22:18:10.976+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-29T22:18:11.038+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-29T22:18:11.052+05:30  INFO 13140 --- [SpringBootBestPratices] [restartedMain] c.p.SpringBootBestPraticesApplication    : Started SpringBootBestPraticesApplication in 7.676 seconds (process running for 8.574)
+2024-11-29T23:05:49.316+05:30  INFO 13140 --- [SpringBootBestPratices] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-29T23:05:49.317+05:30  INFO 13140 --- [SpringBootBestPratices] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-29T23:05:49.319+05:30  INFO 13140 --- [SpringBootBestPratices] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-29T23:05:49.387+05:30 DEBUG 13140 --- [SpringBootBestPratices] [http-nio-8080-exec-2] com.praveen.service.ProductService       : Saving product: {}
+2024-11-29T23:05:49.387+05:30  INFO 13140 --- [SpringBootBestPratices] [http-nio-8080-exec-2] com.praveen.service.ProductService       : Updating product with ID: 2
+2024-11-29T23:05:49.387+05:30  INFO 13140 --- [SpringBootBestPratices] [http-nio-8080-exec-2] com.praveen.service.ProductService       : Fetching product with ID: 2
+2024-11-29T23:05:49.387+05:30  WARN 13140 --- [SpringBootBestPratices] [http-nio-8080-exec-2] com.praveen.service.ProductService       : Deleting product with ID: 2
+2024-11-29T23:07:36.291+05:30  INFO 13140 --- [SpringBootBestPratices] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-29T23:07:36.305+05:30  INFO 13140 --- [SpringBootBestPratices] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-29T23:07:36.361+05:30  INFO 13140 --- [SpringBootBestPratices] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-29T23:07:36.381+05:30  INFO 13140 --- [SpringBootBestPratices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-29T23:07:36.387+05:30  INFO 13140 --- [SpringBootBestPratices] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
